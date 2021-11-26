@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>Capstone 1</title>
+</head>
+
+<body>
+	<!-- Navigation links -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand " href="./index.html">Melvin Nacfil</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target= "#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse" id="navHeader">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#gallery">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact Us</a>
+				</li>
+			</ul>
+
+	</nav>
+		<!-- end of navigation -->
+		<!-- main content -->
+		<main class="my-5" id="home">
+			<div class="banner">
+				<h1 class="display-2">Welcome to my Page!</h1>
+				<p>Here you can view my projects and different stack that i've been used. I'll also put my technical skills and educational attainment for your reference</p>
+			</div>
+
+		</main>
+		<!-- end of main Content -->
+
+		<!-- section for About me -->
+		<section>
+			<div class="about jumbotron" id="about">
+				<h1 class="display-3 text-center">About me</h1>
+			</div>
+		</section>
+		<!-- end of section -->
+
+		<!-- section for gallery -->
+		<section class="container" id="gallery">
+			<h1 class="display-3 text-center p-3">My Projects</h1>
+			<div class="images row">
+				<div class="col"><img src="./design1.jpeg" class="img-fluid w-100"></div>
+				<div class="col"><img src="./design2.jpeg" class="img-fluid w-100"></div>
+				<div class="col"><img src="./design3.jpeg" class="img-fluid w-100"></div>
+				<div class="col"><img src="./design4.jpeg" class="img-fluid w-100"></div>
+				<div class="col"><img src="./design5.jpeg" class="img-fluid w-100"></div>
+		
+			</div>
+		</section>
+		<!-- end of section -->
+
+		<!-- Contact section -->
+		<section class="container bg-dark text-white my-5" id="contact">
+			<h2 class="text-center p-3">Contact Us</h2>
+			<!-- form -->
+			<form class="row justify-content-center">
+				<!-- full name -->
+				<div class="col-md-6 my-3">
+					<label for="fullName">Full Name</label>
+					<input type="text" name="fullName" id="fullName" placeholder="Full name" class= "form-control" required>
+				</div>
+				<!-- Email -->
+				<div class="col-md-6 my-3">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
+				</div>
+				<!-- message -->
+				<div class="col-12 my-3">
+					<label for="txt-area">Your Message</label>
+					<textarea id="txt-area" name="txt-area" type="txt" class="form-control"></textarea>
+				</div>
+				<!-- submit btn -->
+				<div class="col-5 mb-3 ">
+					<button type="submit" class="btn btn-primary d-block w-100 p-2" data-toggle="modal" data-target="#modalMessage">Submit</button>
+				</div>
+			</form>
+			<!-- modal -->
+			<div id="modalMessage" tabindex="-1" aria-labelledby="" aria-hidden="true" class="modal fade ">
+				<div class="modal-dialog jumbotron text-dark ">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title " id="modalMessage">Thank you for contacting us!</h5>
+							<button type="button" data-dismiss="modal" aria-lable="close" class="close text-danger" ><span>&times;</span>
+						</div>
+					</div>
+					<div class="modal-body">
+						Message Succesfully Sent!
+					</div>
+					<!-- <div class="modal-footer"></div> -->
+				</div>
+			</div>
+
+		</section>
+		<!-- end of contact section -->
+
+		<!-- footer -->
+		<footer class="container-fluid bg-dark p-5 text-center">
+			<div>
+				<h5 class="text-light p-3">For more projects you can visit my social media accounts down below</h5>
+			</div>
+			<div class="socialMedia">
+				<a href="https://www.facebook.com/melvin.nacfil.14" target="_blank"><i class="fab fa-facebook mr-3"></i></a>
+				<a href="https://www.linkedin.com/in/melvin-nacfil-9596a8206/" target="_blank"><i class="fa fa-linkedin mx-3"></i></a>
+				<a href="https://gitlab.com/mnacfil"><i class="fa fa-gitlab ml-3" target="_blank"></i></a>
+				
+			</div>
+		</footer>
+		<!-- end of footer --	>
+
+		<--Bootstrap javascript -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+		<!-- fontawesome icon -->
+		<script src="https://kit.fontawesome.com/7a46a783b9.js" crossorigin="anonymous"></script>
+	</body>
+	</html>
