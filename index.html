@@ -12,8 +12,8 @@
 
 <body>
 	<!-- Navigation links -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<a class="navbar-brand " href="./index.html">Melvin Nacfil</a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+		<a class="navbar-brand " href="./index.html"><img src="./cap1.logo.png" img-fluid></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target= "#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -21,77 +21,244 @@
 
 		<div class="collapse navbar-collapse" id="navHeader">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
+				<li class="">
 					<a class="nav-link" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#gallery">Gallery</a>
+					<a class="nav-link" href="#project">Projects</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#contact">Contact Us</a>
 				</li>
 			</ul>
-
+		</div>
 	</nav>
 		<!-- end of navigation -->
 		<!-- main content -->
-		<main class="my-5" id="home">
+		<main class="" id="home">
 			<div class="banner">
-				<h1 class="display-2">Welcome to my Page!</h1>
-				<p>Here you can view my projects and different stack that i've been used. I'll also put my technical skills and educational attainment for your reference</p>
+				<div class="welcome">
+					<h2 class="hi text-light">Hi! My name is</h2>
+					<h1 class="display-2 text-light"">Melvin Nacfil</h1>
+					<h2 class="developer text-light"">Software Engineer / Web Developer</h2>
+				</div>
+				<div class="social">
+					<a href="https://www.facebook.com/melvin.nacfil.14" target="_blank"><i class="fab fa-facebook  mx-2"></i></a>
+					<a href="https://www.linkedin.com/in/melvin-nacfil-9596a8206/" target="_blank"><i 		class="	fa fa-linkedin  mx-2"></i></a>
+					<a href="https://gitlab.com/mnacfil"><i class="fa fa-gitlab mx-2" target="_blank"></i>	</a>	
+				</div>
 			</div>
-
 		</main>
 		<!-- end of main Content -->
 
 		<!-- section for About me -->
-		<section>
-			<div class="about jumbotron" id="about">
-				<h1 class="display-3 text-center">About me</h1>
+		<section class="container" id="about">
+			<h1 class="display-4 text-center font-weight-bold p-4 text-light">About</h1>
+			<div class="row">
+				<!-- education  -->
+				<div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center order-2 order-md-1">
+					<h4 class="display-4 text-center">2020 Graduate<i class="fas fa-user-graduate"></i> at RTU</h4>
+					<h5>(Rizal Technological University)<i class="fas fa-university"></i></h5>
+					<div class="tstech-txt">
+						<p class="text-center">
+							Took up Bachelor of Science in Mechanical Engineering
+						</p>
+						<p class="text-center">Engage in problem solving and analytical thinking in different subject</p>
+						<p class="text-center">
+							loves solving independently to showcase my skills and ability to provide a solution and to think outside a box.
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 order-1 order-md-2">
+					<img src="https://www.edifgroup.com/assets/img/logos/graduates.svg" class="img-fluid w-100">
+				</div>
+				<!-- 1st company -->
+				<div class="col-12 col-md-6  order-4 order-md-4 d-flex flex-column justify-content-center align-items-center">
+					<h4 class="display-4 text-center">CAD Engineer<i class="fas fa-hard-hat"></i> at TS TECH .CO</h4>
+					<div class="tstech-txt ">
+						<p class=" text-center"> A japanese Automotive/Engineering company located in Makati. My main responsibility here is to design and draw 2D and 3D automotive parts</p>
+						<p class=" text-center">Create and design parts that are standard and quality since japan is one of most productive in terms of quality of work</p>
+						<p class="text-center">Communicate and assist other engineer to the projects that assigned by japan engineers</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6  order-3 order-md-3 d-flex align-items-center justify-content-center order-3 ">
+					<img src="./tstech.png" class="img-fluid w-100">
+				</div>
+
+				<!-- tech field -->
+				<div class="col-12 col-md-6 order-6 order-md-5 d-flex flex-column justify-content-center align-items-center">
+					<h4 class="display-4 text-center">Start my career <i class="fas fa-industry"></i> in TECH Industry</h4>
+					<div class="tstech-txt ">
+						<p class=" text-center">After the postponement of our board exam, I'll just realize that Tech industry are changing the lives of everyone specially in manufacturing, Artificial Intellegence and Machine learning.</p>
+						<p class=" text-center">I'll start to learn C and C++ programming langguage, and then I'll realize that i'ts not the right track. I'll begin searching some youtube channel that teach the tools and programming langguage that I need to become a software engineer</p>
+						<p class="text-center">first I learn HTML5 and CSS3 where I did some basic projects, then I jump on to Javascript where I'll study all the theory and idea behind it.</p>
+						<p class="text-center">after 2 months of self-studying, I lost my motivation and eagerness to learn and did some reasearch to find that there are bootcamp that provide quality education and give right path</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6  d-flex order-5 order-md-6 align-items-center justify-content-center">
+					<img src="./faang.jpg" class="img-fluid w-100">
+				</div>
+
+
 			</div>
 		</section>
 		<!-- end of section -->
 
-		<!-- section for gallery -->
-		<section class="container" id="gallery">
-			<h1 class="display-3 text-center p-3">My Projects</h1>
-			<div class="images row">
-				<div class="col"><img src="./design1.jpeg" class="img-fluid w-100"></div>
-				<div class="col"><img src="./design2.jpeg" class="img-fluid w-100"></div>
-				<div class="col"><img src="./design3.jpeg" class="img-fluid w-100"></div>
-				<div class="col"><img src="./design4.jpeg" class="img-fluid w-100"></div>
-				<div class="col"><img src="./design5.jpeg" class="img-fluid w-100"></div>
-		
+		<!-- section for Projects -->
+		<section class="project-container" id="project">
+			<h1 class="display-4 text-center p-4 text-light font-weight-bold">Projects</h1>
+			<div class="project-container-content">
+
+				<!-- 1st project -->
+				<div class="project-item ">
+					<div class="project-bg">
+						
+					</div>
+					<div class="project-logo-txt">
+						<div class="project-logo">
+							<!-- <img src="./cap1.logo.png" alt=""> -->
+						</div>
+						<div class="project-txt">
+							<h2>CAPSTONE 1</h2>
+							<p>Build Responsive Personal Website using HTML,CSS and Bootstrap</p>
+							<p>
+								<i class="fab fa-html5 mx-4"></i>
+								<i class="fab fa-css3-alt mx-4"></i>
+								<i class="fab fa-bootstrap mx-4"></i>
+							</p>
+						</div>
+					</div>
+				</div>	
+				<!-- 2nd project -->
+				<div class="project-item">
+					<div class="project-bg">
+					
+					</div>
+					<div class="project-logo-txt">
+						<div class="project-logo">
+							<!-- <img src="./cap1.logo.png" alt=""> -->
+						</div>
+						<div class="project-txt">
+							<h2>CAPSTONE 2</h2>
+							<p>Build Responsive Personal Website using HTML,CSS,Bootstrap Javascript, Node.Js and React.js</p>
+							<p>
+								<i class="fab fa-html5 mx-4"></i>
+								<i class="fab fa-css3-alt mx-4"></i>
+								<i class="fab fa-bootstrap mx-4"></i>
+								<i class="fab fa-js mx-4"></i>
+								<i class="fab fa-node mx-4"></i>
+								<i class="fab fa-react mx-4"></i>
+							</p>
+						</div>
+					</div>
+				</div>	
+				<!-- 3rd project -->
+				<div class="project-item">
+					<div class="project-bg">
+						
+					</div>
+					<div class="project-logo-txt">
+						<div class="project-logo">
+							<!-- <img src="./cap1.logo.png" alt=""> -->
+						</div>
+						<div class="project-txt">
+							<h2>CAPSTONE 3</h2>
+							<p>Build Responsive Personal Website using HTML,CSS,PHP and Laravel</p>
+							<p>
+								<i class="fab fa-html5 mx-2"></i>
+								<i class="fab fa-css3-alt mx-2"></i>
+								<i class="fab fa-bootstrap mx-2"></i>
+								<i class="fab fa-php mx-2"></i>
+								<i class="fab fa-laravel mx-2 "></i>
+							</p>
+						</div>
+					</div>
+				</div>	
+				<!-- 4th project -->
+				<div class="project-item">
+					<div class="project-bg">
+						
+					</div>
+					<div class="project-logo-txt">
+						<div class="project-logo">
+							<!-- <img src="./cap1.logo.png" alt=""> -->
+						</div>
+						<div class="project-txt">
+							<h2>CAPSTONE 4</h2>
+							<p>Build Responsive Personal Website using MERN Stack</p>
+							<p>
+								<i class="fab fa-html5 mx-4"></i>
+								<i class="fab fa-css3-alt mx-4"></i>
+								<i class="fab fa-js mx-4"></i>
+								<i class="fab fa-python mx-4"></i>
+							</p>
+						</div>
+					</div>
+				</div>	
+				<!-- 5th project -->
+				<div class="project-item">
+					<div class="project-bg">
+						
+					</div>
+					<div class="project-logo-txt">
+						<div class="project-logo">
+							<!-- <img src="./cap1.logo.png" alt=""> -->
+						</div>
+						<div class="project-txt">
+							<h2>GrindOne</h2>
+							<p>Build Responsive Mobile Game using vanila HTML5,CSS3, Javascript, </p>
+							<p>
+								<i class="fab fa-html5 mx-4"></i>
+								<i class="fab fa-css3-alt mx-4"></i>
+								<i class="fab fa-js mx-4"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+
 			</div>
 		</section>
 		<!-- end of section -->
 
 		<!-- Contact section -->
-		<section class="container bg-dark text-white my-5" id="contact">
-			<h2 class="text-center p-3">Contact Us</h2>
+		<section class="container  text-white mb-5" id="contact">
+			<h2 class="text-center p-3
+			">Contact Us</h2>
 			<!-- form -->
-			<form class="row justify-content-center">
+			<form class="row justify-content-center align-items-center">
 				<!-- full name -->
-				<div class="col-md-6 my-3">
-					<label for="fullName">Full Name</label>
-					<input type="text" name="fullName" id="fullName" placeholder="Full name" class= "form-control" required>
-				</div>
+				<div class="form col-12 col-lg-6  d-flex flex-column  justify-content-center ">
+					<div class="mb-2">
+						<label for="fullName">Full Name:</label>
+						<input type="text" name="fullName" id="fullName" placeholder="Full name" class= "form-control" required>
+					</div>
 				<!-- Email -->
-				<div class="col-md-6 my-3">
-					<label for="email">Email</label>
-					<input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
-				</div>
+					<div class="my-2">
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
+					</div>
 				<!-- message -->
-				<div class="col-12 my-3">
-					<label for="txt-area">Your Message</label>
-					<textarea id="txt-area" name="txt-area" type="txt" class="form-control"></textarea>
-				</div>
+					<div class="my-2">
+						<label for="txt-area">Your Message:</label>
+						<textarea id="txt-area" name="txt-area" type="txt" class="form-control"></textarea>
+					</div>
 				<!-- submit btn -->
-				<div class="col-5 mb-3 ">
-					<button type="submit" class="btn btn-primary d-block w-100 p-2" data-toggle="modal" data-target="#modalMessage">Submit</button>
+					<div class="mt-2">
+						<button type="submit" class="btn btn-primary d-block w-100 p-2" data-toggle="modal" data-target="#modalMessage">Submit</button>
+					</div>
+				</div>
+
+				<div class="map col-12 col-lg-6 d-flex align-items-centers justify-content-center mt-3 p-2 " >
+					<div class="mapouter d-flex justify-content-center align-items-center ">
+						<div class="gmap_canvas">
+							<iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Pasay%20maricaban&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">			
+							</iframe>
+						</div>
+					</div>
 				</div>
 			</form>
 			<!-- modal -->
@@ -114,16 +281,57 @@
 		<!-- end of contact section -->
 
 		<!-- footer -->
-		<footer class="container-fluid bg-dark p-5 text-center">
-			<div>
-				<h5 class="text-light p-3">For more projects you can visit my social media accounts down below</h5>
+		<footer class="container-fluid " id="footer-first">
+			<div class="row align-content-center justify-content-center">
+				<div class="col-3 d-flex justify-content-center align-items-center">
+					<div class="menu d-flex flex-column  d-flex flex-column
+					justify-content-center 
+					">
+						<a href="#" class="p-2 text-dark">Home</a>
+						<a href="#" class="p-2 text-dark" >About</a>
+						<a href="#" class="p-2 text-dark">Project</a>
+						<a href="#" class="p-2 text-dark">Contact</a>
+					</div>
+				</div>
+				<div class="col-3 d-flex justify-content-center align-items-center">
+					<div class="services d-flex flex-column align-items-start">
+						<h4>Services</h4>
+						<h6>Technology Consulting</h6>
+						<h6>Artificial Intelligence</h6>
+						<h6>Technology Innovation</h6>
+						<h6>Responsive Website</h6>
+						<h6>Data & Analytics</h6>
+						<h6>Software Engineering</h6>
+
+					</div>
+				</div>
+				<div class="col-3 d-flex justify-content-center align-items-center">
+					<div class="skills d-flex flex-column align-items-center">
+						<h4>Technical Skills</h4>
+						<i class="fab fa-html5"></i>
+						<i class="fab fa-css3-alt"></i>
+						<i class="fab fa-bootstrap"></i>
+						<i class="fab fa-js"></i>
+						<i class="fab fa-node"></i>
+						<i class="fab fa-react"></i>
+						<i class="fab fa-git"></i>
+					</div>
+				</div>
+				<div class="col-3  d-flex flex-column align-content-center justify-content-center socialMedia">
+					<div class="connect d-flex flex-column align-items-center">
+						<h4>Connect</h4>
+						<a href="https://www.facebook.com/melvin.nacfil.14" target="_blank"><i class="fab 	fa-facebook mb-2"></i></a>
+						<a href="https://www.linkedin.com/in/melvin-nacfil-9596a8206/" target="_blank"><i 		class="	fa fa-linkedin mb-2"></i></a>
+						<a href="https://gitlab.com/mnacfil"><i class="fa fa-gitlab mb-2" target="_blank"></i>	</a>	
+						<span><i class="fas fa-envelope-square mb-2"></i>mnacfil@gmail.com</span>
+						<span><i class="fas fa-phone"></i>0948-580-3262</span>
+					</div>
+				</div>
 			</div>
-			<div class="socialMedia">
-				<a href="https://www.facebook.com/melvin.nacfil.14" target="_blank"><i class="fab fa-facebook mr-3"></i></a>
-				<a href="https://www.linkedin.com/in/melvin-nacfil-9596a8206/" target="_blank"><i class="fa fa-linkedin mx-3"></i></a>
-				<a href="https://gitlab.com/mnacfil"><i class="fa fa-gitlab ml-3" target="_blank"></i></a>
+		</footer>
+		<footer class="container-fluid text-white" id="footer-last">
+				<div class="text-center">Terms of Use | Private Policiy | Developer Pofrfolio Design by Melvin Nacfil&copy;2021</div>
 				
-			</div>
 		</footer>
 		<!-- end of footer --	>
 
@@ -132,5 +340,9 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 		<!-- fontawesome icon -->
 		<script src="https://kit.fontawesome.com/7a46a783b9.js" crossorigin="anonymous"></script>
+
+		<!-- external Js -->
+		<script src="./app.js"></script>
 	</body>
 	</html>
+	<!-- 			<h5 class="text-light p-3">For more projects you can visit my social media accounts down below</h5> -->
